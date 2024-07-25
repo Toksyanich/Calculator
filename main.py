@@ -161,5 +161,6 @@ class Calculator(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = Calculator()
+    window.setFixedSize(360,466)
     window.show()
     sys.exit(app.exec())
